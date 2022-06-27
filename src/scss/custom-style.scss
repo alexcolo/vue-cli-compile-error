@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "IntrumSansRegular";
+  src: url("~@/assets/fonts/woff2/IntrumSans-Regular.woff2") format("woff2"),
+    url("~@/assets/fonts/ttf/IntrumSans-Regular.ttf") format("ttf"),
+    url("~@/assets/fonts/woff/IntrumSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "IntrumSansBold";
+  src: url("~@/assets/fonts/woff2/IntrumSans-Bold.woff2") format("woff2"),
+    url("~@/assets/fonts/ttf/IntrumSans-Bold.ttf") format("ttf"),
+    url("~@/assets/fonts/woff/IntrumSans-Bold.woff") format("woff");
+}
+  
+@font-face {
+  font-family: "IntrumSansRegularItalic";
+  src: url("~@/assets/fonts/woff2/IntrumSans-RegularItalic.woff2")
+      format("woff2"),
+    url("~@/assets/fonts/ttf/IntrumSans-RegularItalic.ttf") format("ttf"),
+    url("~@/assets/fonts/woff/IntrumSans-RegularItalic.woff") format("woff");
+}
+
+//Added for remove wrong overflow/padding effect applied by Qlik when open alternative dimensions/measures
+html.remove-overflow {
+  overflow: auto !important;
+}
+
+body.remove-padding {
+  padding-right: 0px !important;
+}

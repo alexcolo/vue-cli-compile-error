@@ -1,0 +1,63 @@
+//Override qlik style font font family for fixing font in viz lib dropdown
+button.cl-c-select {
+    font-family: Source Sans Pro, sans-serif !important;
+  }
+  span.lui-list__text {
+    font-family: Source Sans Pro, sans-serif !important;
+  }
+  
+  //Override vertical align for viz lib drop down
+  span.cl-container-icon:before {
+    vertical-align: initial;
+  }
+  
+  //Apply selections toolbar
+  .sel-toolbar-list {
+    //Override width for selection buttons (confirm, close, selec all, select alternative, etc..)
+    li.sel-toolbar-list-item {
+      width: auto !important;
+    }
+    //Override color for confirm button
+    button.sel-toolbar-confirm {
+      background-color: var(--v-petrol-base) !important;
+    }
+    //Override color for cancel button
+    button.sel-toolbar-cancel {
+      background-color: var(--v-red-base) !important;
+    }
+  }
+  
+  .v-application {
+    .v-card.v-card--link:focus:before {
+      content: none;
+    }
+  
+    // show  scrollbar in chrome
+    @supports (overflow: overlay) {
+      .qv-st.qv-st-navigatable:not(.qv-st-virtual-scroll-enabled)
+        .qv-grid-object-scroll-area {
+        overflow-y: overlay;
+      }
+    }
+    //Override tabs width for using router with tabs
+    .v-tabs {
+      width: auto;
+    }
+  }
+  
+  .position-progress {
+    bottom: 13vh;
+    left: 7vh;
+  }
+  
+  .break-words {
+    word-break: break-word;
+  }
+  
+  .viz-wrapper {
+    height: 100%;
+  }
+  
+  .tab-item-font {
+    font-family: "IntrumSansBold";
+  }

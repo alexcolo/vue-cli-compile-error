@@ -1,0 +1,128 @@
+{
+  "label": {
+    "update-date": "Data is updated per",
+    "title": "Title",
+    "close": "Close",
+    "select-all" : "Select All",
+    "bookmarks": {
+      "pop-up": "Bookmarks",
+      "title": "Bookmarks",
+      "description": "Description (optional)",
+      "add": "Add Bookmark",
+      "update": "Update Bookmark",
+      "delete": "Delete Bookmark",
+      "startUp": "Start Up Bookmark",
+      "startUpHint": "It will load dashboard with this bookmark applied on load. It will override any existing start up bookmark."
+    }
+  },
+  "message" : {
+    "titleRequired": "Title is required",
+    "emptyBookmarks": "No bookmarks found. Clik on + icon in the right corner to create one."
+  },
+  "select" : {
+    "dimensions" : {
+      "title": "Dimensions",
+      "hint": "Pick one or more dimensions (max. 10)"
+    },
+    "measures-group" : {
+      "title": "Measures Group",
+      "hint": "Pick one or more Measure groups. Please note that if you remove a measure group, the related measures chosen will be de-selected."
+    },
+    "measures" : {
+      "title": "Measures",
+      "hint": "Pick one or more measures. (max. 20)"
+    }
+  },
+  "portfolio-dev": {
+    "landing-page-title": "Portfolio Development",
+    "landing-page-descr": "Compilation of development in portfolios over time, based on various variables. Limited to cases registered with intrum last 3 years.",
+    "tabs": {
+      "summary": "Summary",
+      "portfolio": "Portfolio",
+      "money-solution": "$ Solution%",
+      "item-solution": "# Solution%",
+      "score": "Score",
+      "key-figures": "Key Figures",
+      "descriptions": "Descriptions",
+      "custom-reporting": "Custom Reporting"
+    },
+    "summary": {
+      "collection-score-piechart": "Collection Score Color",
+      "solution-by-days-barchart": "$ Solution% by Days",
+      "received-cases-linechart": "# Received cases over time"
+    },
+    "portfolio": {
+      "portfolio-solution-perc-linechart": "$ Solution%",
+      "various-case-info-linechart": "Various Case Information",
+      "principal-original-linechart": "AVG Principal Original",
+      "collection-score-color-linechart": "Collection Score Color - Cases",
+      "radio-include-withdrawn": "Include withdrawn cases"
+    }
+  },
+  "open-cases": {
+    "landing-page-title": "Open Cases",
+    "landing-page-descr": "Compilation of all open cases, including reminder service and collection.",
+    "tabs": {
+      "summary": "Summary",
+      "restructuring": "Restructuring",
+      "international": "International",
+      "descriptions": "Descriptions",
+      "custom-reporting": "Custom Reporting"
+    },
+    "summary": {
+      "open-cases-collection-phase-piechart": "Collection Phase"
+    },
+    "restructuring": {
+      "open-cases-debt-restruc-phase-piechart": "Debt Restructuring Phase"
+    },
+    "international": {
+      "open-cases-int-top-countries": "Top 10 Countries",
+      "open-cases-int-debt-restruc-phase-piechart": "Debt Restructuring Phase"
+    }
+  },
+  "balance-events": {
+    "landing-page-title": "Balance and Events",
+    "landing-page-descr": "Information about events and balances related to the portfolio, such as transactions, case registration, case closure, remittance and legal actions. The dashboard is based on when an event occurred, regardless of the age of the case.",
+    "tabs": {
+      "summary": "Summary",
+      "balance": "Balance",
+      "transactions": "Transactions",
+      "cases": "Cases",
+      "remitted": "Remitted",
+      "closed": "# Closed",
+      "legal-actions": "Legal Actions",
+      "key-figures": "Key Figures",
+      "descriptions": "Descriptions",
+      "custom-reporting": "Custom Reporting"
+    },
+    "summary": {
+      "balance-events-sum-item-pay": "# Payment Rate",
+      "balance-events-sum-money-pay": "$ Payment Rate"
+    },
+    "remitted": {
+      "balance-events-remitted-linechart": "Remitted"
+    },
+    "international": {
+      "balance-events-int-top-countries": "Top 10 Countries",
+      "balance-events-int-debt-restruc-phase-piechart": "Debt Restructuring Phase"
+    }
+  },
+  "solution": {
+    "landing-page-title": "Solution",
+    "landing-page-descr": "Solution description in EN",
+    "tabs": {
+      "total": "Total",
+      "pre-collection": "Pre Collection",
+      "descriptions": "Descriptions",
+      "custom-reporting": "Custom Reporting"
+    },
+    "total": {
+      "solution-rates": "Solution Rates",
+      "solution-item-cases-sent": "# Cases sent to Intrum"
+    },
+    "pre-collection": {
+      "solution-rates": "Solution Rates",
+      "solution-item-cases-sent": "# Cases sent to Intrum"
+    }
+  }
+}

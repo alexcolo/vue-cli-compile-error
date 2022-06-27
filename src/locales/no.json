@@ -1,0 +1,128 @@
+{
+  "label": {
+    "update-date": "Data oppdatert per",
+    "title": "Title",
+    "close": "Close",
+    "select-all" : "Velg alle",
+    "bookmarks": {
+      "pop-up": "Bookmarks",
+      "title": "Bookmarks",
+      "description": "Description (optional)",
+      "add": "Add Bookmark",
+      "update": "Update Bookmark",
+      "delete": "Delete Bookmark",
+      "startUp": "Start Up Bookmark",
+      "startUpHint": "It will load dashboard with this bookmark applied on load. It will override any existing start up bookmark."
+    }
+  },
+  "message" : {
+    "titleRequired": "Title is required in NO",
+    "emptyBookmarks": "No bookmarks found. Clik on + icon in the right corner to create one. in NO"
+  },
+  "select" : {
+    "dimensions" : {
+      "title": "Dimensjoner",
+      "hint": "Velg en eller flere dimensjoner (maks.10)"
+    },
+    "measures-group" : {
+      "title": "Gruppe av verdier",
+      "hint": "Velg en eller flere grupper for verdier. NB! Dersom du fjerner en gruppe for verdier, blir tilhørende verdier du har valgt, fjernet fra tabellen"
+    },
+    "measures" : {
+      "title": "Verdier",
+      "hint": "Velg en eller flere verdier (maks. 20)"
+    }
+  },
+  "portfolio-dev": {
+    "landing-page-title": "Porteføljeutvikling",
+    "landing-page-descr": "Sammenstilling av utvikling i porteføljer over tid, basert på ulike variabler. Begrenset til saker registrert hos Intrum siste 3 år.",
+    "tabs": {
+      "summary": "Oppsummering",
+      "portfolio": "Portefølje",
+      "money-solution": "$ Løsningsgrad",
+      "item-solution": "# Løsningsgrad",
+      "score": "Score",
+      "key-figures": "Nøkkeltall",
+      "descriptions": "Beskrivelser",
+      "custom-reporting": "Tilpasset rapport"
+    },
+    "summary": {
+      "collection-score-piechart": "Scorefarge Inkasso",
+      "solution-by-days-barchart": "$ Løsningsgrad over tid",
+      "received-cases-linechart": "# Saker oversendt til Intrum"
+    },
+    "portfolio": {
+      "portfolio-solution-perc-linechart": "$ Løsningsgrad",
+      "various-case-info-linechart": "Diverse informasjon om sakene",
+      "principal-original-linechart": "Snitt Opprinnelig Hovedstol",
+      "collection-score-color-linechart": "Scorefarge Inkasso - Saker",
+      "radio-include-withdrawn": "Inkluder trukkede saker"
+    }
+  },
+  "open-cases": {
+    "landing-page-title": "Aktive Saker",
+    "landing-page-descr": "Sammenstilling av alle åpne saker hos Intrum, inkludert purreservice og inkasso.",
+    "tabs": {
+      "summary": "Oppsummering",
+      "restructuring": "Gjeldsordning",
+      "international": "International",
+      "descriptions": "Beskrivelser",
+      "custom-reporting": "Tilpasset rapport"
+    },
+    "summary": {
+      "open-cases-collection-phase-piechart": "Innfordringsfase"
+    },
+    "restructuring": {
+      "open-cases-debt-restruc-phase-piechart": "Gjeldsordningsfase"
+    },
+    "international": {
+      "open-cases-int-top-countries": "Topp 10 Land",
+      "open-cases-int-debt-restruc-phase-piechart": "Gjeldsordningsfase"
+    }
+  },
+  "balance-events": {
+    "landing-page-title": "Periodisering",
+    "landing-page-descr": "Informasjon om hendelser og balanser knyttet til porteføljen, eksempelvis transaksjoner, saksregistrering, saksavslutning, remittering og utførte rettsskritt. Balanser er også inkludert. Dashboardet baserer seg på når en hendelse inntraff, uavhengig av sakenes alder.",
+    "tabs": {
+      "summary": "Oppsummering",
+      "balance": "Balanse",
+      "transactions": "Transaksjoner",
+      "cases": "Saker",
+      "remitted": "Remittert",
+      "closed": "# Avsluttet",
+      "legal-actions": "Rettskritt",
+      "key-figures": "Nøkkeltall",
+      "descriptions": "Beskrivelser",
+      "custom-reporting": "Tilpasset rapport"
+    },
+    "summary": {
+      "balance-events-sum-item-pay": "# Innbetalingsgrad",
+      "balance-events-sum-money-pay": "$ Innbetalingsgrad"
+    },
+    "remitted": {
+      "balance-events-remitted-linechart": "Remittert"
+    },
+    "international": {
+      "balance-events-int-top-countries": "Top 10 Countries",
+      "balance-events-int-debt-restruc-phase-piechart": "Debt Restructuring Phase"
+    }
+  },
+  "solution": {
+    "landing-page-title": "Solution",
+    "landing-page-descr": "Solution description in NO",
+    "tabs": {
+      "total": "Total",
+      "pre-collection": "Purreservice",
+      "descriptions": "Beskrivelser",
+      "custom-reporting": "Tilpasset rapport"
+    },
+    "total": {
+      "solution-rates": "Løsningsgrader",
+      "solution-item-cases-sent": "#Saker oversendt til Intrum"
+    },
+    "pre-collection": {
+      "solution-rates": "Løsningsgrader",
+      "solution-item-cases-sent": "#Saker oversendt til Intrum"
+    }
+  }
+}

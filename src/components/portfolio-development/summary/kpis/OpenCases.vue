@@ -1,0 +1,36 @@
+<template>
+  <v-hover v-slot="{ hover }">
+    <fullscreen-viz
+      class="viz-wrapper"
+      viz-name="open-cases-kpi"
+      :is-hover="hover"
+    >
+      <qlik-viz
+        name="open-cases-kpi"
+        :options="{ height: '100%' }"
+        :is-toolbar-enabled="true"
+      />
+    </fullscreen-viz>
+  </v-hover>
+</template>
+
+<script>
+import QlikViz from "@/components/qlik-components/QlikViz";
+import FullscreenViz from "@/components/layout/fullscreen/FullscreenViz";
+
+export default {
+  name: "OpenCases",
+
+  components: {
+    QlikViz,
+    FullscreenViz
+  }
+};
+</script>
+
+<style lang="scss">
+//Test for overriding kpi font. Instead, use Qlik theme
+// div.sn-kpi-value {
+//   font-family: "IntrumSansBold" !important;
+// }
+</style>

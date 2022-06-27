@@ -1,0 +1,743 @@
+{
+  "qlik-servers": {
+    "main": {
+      "secure": true,
+      "host": "idcsrv835.intrum.net",
+      "port": "443",
+      "prefix": ""
+    }
+  },
+  "qlik-apps": {
+    "portfolio-development": {
+      "appId": "744ff343-aded-4e40-9b85-40ecb3e85a08",
+      "serverRef": "main"
+    },
+    "open-cases": {
+      "appId": "7039b10b-1652-4dff-8b7d-d3ff174063f4",
+      "serverRef": "main"
+    },
+    "balance-events": {
+      "appId": "ac82415c-39c3-4b74-a0a9-540084e7e8a8",
+      "serverRef": "main"
+    }
+  },
+  "qlik-visualizations": {
+    "portfolio-development-current-selections": {
+      "type": "currentSelections",
+      "id": "CurrentSelections",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-1": {
+      "type": "filterpane",
+      "id": "e7570441-cbae-428e-8cfc-10806afda3de",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-2": {
+      "type": "filterpane",
+      "id": "e23cac82-32d0-4e2f-8920-651ceecd9efe",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-3": {
+      "type": "filterpane",
+      "id": "2ec91d7e-4568-4705-81ec-d432935f0aed",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-4": {
+      "type": "filterpane",
+      "id": "ffa709cf-abe2-4cba-ada3-1a2925946077",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-5": {
+      "type": "filterpane",
+      "id": "d61358c9-61e0-404c-b9bc-7f04a159826a",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-6": {
+      "type": "filterpane",
+      "id": "29f566f9-4aca-4ffb-a74d-724599bac288",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-7": {
+      "type": "filterpane",
+      "id": "e9a723fe-3d20-47a1-9ac9-106af8f48a4b",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-8": {
+      "type": "filterpane",
+      "id": "be4a9b56-a6d2-489e-ad88-dedf3f34094d",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-development-filter-9": {
+      "type": "filterpane",
+      "id": "e72d9062-faef-4977-a34a-5224760e622d",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+
+    "radio-include-withdrawn-variable": {
+      "name": "vSelection",
+      "appRef": "portfolio-development"
+    },
+
+    "open-cases-kpi": {
+      "type": "kpi",
+      "id": "c1236266-3f83-44e1-a4ec-f7156234d747",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "collection-cases-kpi": {
+      "type": "kpi",
+      "id": "f251e7ad-bb3e-4eaf-b9ac-0ac1b07dec8e",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "surveillance-kpi": {
+      "type": "kpi",
+      "id": "51e1f25a-4b1f-4bea-9b84-af389ffc6c02",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "collection-score-piechart": {
+      "type": "piechart",
+      "id": "PVmhJm",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "solution-by-days-barchart": {
+      "type": "barchart",
+      "id": "9b756d75-9df5-47a0-83ca-58edbe1ae662",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "received-cases-linechart": {
+      "type": "linechart",
+      "id": "ee041ef1-214f-4b98-a3d5-16a1ef89e68d",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "summary-container-box": {
+      "type": "container",
+      "id": "yEXdZj",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+
+    "portfolio-solution-perc-linechart": {
+      "type": "linechart",
+      "id": "cxwMswR",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "various-case-info-linechart": {
+      "type": "linechart",
+      "id": "fkJPwk",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "principal-original-linechart": {
+      "type": "linechart",
+      "id": "UebJEB",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "collection-score-color-linechart": {
+      "type": "linechart",
+      "id": "UFdPDk",
+      "options": { "showTitles": false },
+      "appRef": "portfolio-development"
+    },
+    "portfolio-table": {
+      "type": "table",
+      "id": "wFsJ",
+      "appRef": "portfolio-development"
+    },
+
+    "money-solution-perc-linechart": {
+      "type": "linechart",
+      "id": "jaNAKs",
+      "appRef": "portfolio-development"
+    },
+    "money-solution-perc-container-box": {
+      "type": "container",
+      "id": "ZnNSY",
+      "appRef": "portfolio-development"
+    },
+
+    "item-solution-perc-linechart": {
+      "type": "linechart",
+      "id": "9b485c6d-9bc2-4e17-ae4d-78785f0870c4",
+      "appRef": "portfolio-development"
+    },
+    "item-solution-perc-container-box": {
+      "type": "container",
+      "id": "gKmXcC",
+      "appRef": "portfolio-development"
+    },
+
+    "score-container-box-1": {
+      "type": "container",
+      "id": "jVSjc",
+      "appRef": "portfolio-development"
+    },
+    "score-container-box-2": {
+      "type": "container",
+      "id": "gjbrya",
+      "appRef": "portfolio-development"
+    },
+
+    "key-figures-container-box-1": {
+      "type": "container",
+      "id": "hSzmMJM",
+      "appRef": "portfolio-development"
+    },
+    "key-figures-container-box-2": {
+      "type": "container",
+      "id": "MvyzrP",
+      "appRef": "portfolio-development"
+    },
+
+    "portfolio-development-descriptions": {
+      "type": "table",
+      "id": "xpgJgW",
+      "appRef": "portfolio-development"
+    },
+
+    "portfolio-development-table-cr": {
+      "type": "table",
+      "id": "hwbbKz",
+      "appRef": "portfolio-development"
+    },
+
+
+
+
+
+    "open-cases-current-selections": {
+      "type": "currentSelections",
+      "id": "CurrentSelections",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-1": {
+      "type": "filterpane",
+      "id": "6494f817-dbdd-453c-b928-2eeaa477c57e",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-2": {
+      "type": "filterpane",
+      "id": "8dc5fe75-98b3-40ae-9f3b-6f6d0d52fb6f",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-3": {
+      "type": "filterpane",
+      "id": "9e2072cd-c688-4ad5-a5b8-ce436ee9b887",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-4": {
+      "type": "filterpane",
+      "id": "e06bbe99-7ca2-4833-9a1f-1afb66d99c20",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-5": {
+      "type": "filterpane",
+      "id": "25fd35d8-bdce-4fe2-a8c8-c19e521db9fc",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-6": {
+      "type": "filterpane",
+      "id": "0fb93b31-0b4b-472d-a43e-db2b32679be7",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-7": {
+      "type": "filterpane",
+      "id": "b1196586-61ca-41a1-abff-dcf50a412967",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-8": {
+      "type": "filterpane",
+      "id": "3d229a03-0ab8-48cd-bd29-9f21e45c4cde",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-9": {
+      "type": "filterpane",
+      "id": "a5e30c75-5e3f-4766-8068-af02a21ed281",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-10": {
+      "type": "filterpane",
+      "id": "80cd54bc-884a-43cd-9de2-79829380c8c0",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-filter-11": {
+      "type": "filterpane",
+      "id": "a0d15dca-9aa3-471d-8845-8b76728f6c28",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+
+    "open-cases-summary-cases-kpi": {
+      "type": "kpi",
+      "id": "c1236266-3f83-44e1-a4ec-f7156234d747",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-summary-pre-collection-kpi": {
+      "type": "kpi",
+      "id": "f251e7ad-bb3e-4eaf-b9ac-0ac1b07dec8e",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-summary-collection-kpi": {
+      "type": "kpi",
+      "id": "51e1f25a-4b1f-4bea-9b84-af389ffc6c02",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-summary-surveillance-kpi": {
+      "type": "kpi",
+      "id": "cmtKLK",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-summary-international-kpi": {
+      "type": "kpi",
+      "id": "wtpPqU",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-summary-debt-restructuring-kpi": {
+      "type": "kpi",
+      "id": "afDU",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-case-process-name-barchart": {
+      "type": "barchart",
+      "id": "DcKPX",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-collection-phase-piechart": {
+      "type": "piechart",
+      "id": "QymXRH",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-summary-table": {
+      "type": "table",
+      "id": "ZAaAYkk",
+      "appRef": "open-cases"
+    },
+
+    
+    "open-cases-restruc-cases-kpi": {
+      "type": "kpi",
+      "id": "hAZjcHn",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-restruc-not-collection-kpi": {
+      "type": "kpi",
+      "id": "zenD",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-restruc-collection-kpi": {
+      "type": "kpi",
+      "id": "fVBAJa",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-restruc-priority-kpi": {
+      "type": "kpi",
+      "id": "ZZzswJ",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-restruc-princ-origin-kpi": {
+      "type": "kpi",
+      "id": "HPSm",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-restruc-out-balance-kpi": {
+      "type": "kpi",
+      "id": "xyZUf",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-restruc-avg-divided-kpi": {
+      "type": "kpi",
+      "id": "BZmnf",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-debt-restruc-phase-piechart": {
+      "type": "piechart",
+      "id": "avmkq",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-restruc-table": {
+      "type": "table",
+      "id": "yjgPf",
+      "appRef": "open-cases"
+    },
+
+
+    "open-cases-int-cases-kpi": {
+      "type": "kpi",
+      "id": "NGfASZ",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-int-princ-origin-kpi": {
+      "type": "kpi",
+      "id": "ZWDWGM",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-int-out-balance-kpi": {
+      "type": "kpi",
+      "id": "VKHuGKy",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-int-countries": {
+      "type": "kpi",
+      "id": "ZBJuLD",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-int-agent-flag": {
+      "type": "kpi",
+      "id": "XRkpk",
+      "options": { "noSelections": true, "showTitles": false },
+      "appRef": "open-cases"
+    },    
+    "open-cases-int-top-countries": {
+      "type": "barchart",
+      "id": "XyAmhGF",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-int-debt-restruc-phase-piechart": {
+      "type": "piechart",
+      "id": "UPs",
+      "options": { "showTitles": false },
+      "appRef": "open-cases"
+    },
+    "open-cases-int-table": {
+      "type": "table",
+      "id": "mgStjC",
+      "appRef": "open-cases"
+    },
+
+
+    "open-cases-descriptions": {
+      "type": "table",
+      "id": "bNCYge",
+      "appRef": "open-cases"
+    },
+
+
+    "open-cases-table-cr": {
+      "type": "table",
+      "id": "spwrqvD",
+      "appRef": "open-cases"
+    },
+
+
+
+
+
+    "balance-events-current-selections": {
+      "type": "currentSelections",
+      "id": "CurrentSelections",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-filter-1": {
+      "type": "filterpane",
+      "id": "a957305e-4a99-471f-895c-3c24035d510b",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-filter-2": {
+      "type": "filterpane",
+      "id": "c1e1744f-ed9c-415e-aea9-adb9253b684a",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-filter-3": {
+      "type": "filterpane",
+      "id": "2596ee45-4b62-48fe-9243-bbbd2e2169c0",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-filter-4": {
+      "type": "filterpane",
+      "id": "5f253329-efda-4fc8-9f71-79c7bbf22d38",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-filter-5": {
+      "type": "filterpane",
+      "id": "9bfd84b0-be60-4f67-914b-4994a78ae3bc",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-filter-6": {
+      "type": "filterpane",
+      "id": "ea289e90-2eea-4bdc-ad95-fb77efdd25e5",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-filter-7": {
+      "type": "filterpane",
+      "id": "c967c6c8-1bc4-4394-b3c7-ac2c9e279a64",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-filter-8": {
+      "type": "filterpane",
+      "id": "55e5c38a-400a-4735-836f-aafeb5ada27e",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+
+
+    "balance-events-sum-item-pay": {
+      "type": "combochart",
+      "id": "pbCdJT",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-sum-money-pay": {
+      "type": "combochart",
+      "id": "qgJEnN",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-sum-table": {
+      "type": "table",
+      "id": "WmJjW",
+      "appRef": "balance-events"
+    },
+
+    "balance-events-bal-ib": {
+      "type": "combochart",
+      "id": "hpAbY",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-bal-table": {
+      "type": "table",
+      "id": "NtaNjJ",
+      "appRef": "balance-events"
+    },
+
+    "balance-events-tran-princ-pay": {
+      "type": "linechart",
+      "id": "LWjbXR",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-tran-container-box": {
+      "type": "container",
+      "id": "ywhjxNx",
+      "appRef": "balance-events"
+    },
+
+    "balance-events-cases-linechart": {
+      "type": "linechart",
+      "id": "eWGPmgk",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-cases-container-box": {
+      "type": "container",
+      "id": "PDRDypF",
+      "appRef": "balance-events"
+    },
+
+    "balance-events-remitted-linechart": {
+      "type": "barchart",
+      "id": "UXLZXk",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-remitted-container-box": {
+      "type": "container",
+      "id": "pNsPr",
+      "appRef": "balance-events"
+    },
+
+    "balance-events-closed-linechart": {
+      "type": "barchart",
+      "id": "CbpcD",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-closed-container-box": {
+      "type": "container",
+      "id": "jhZhTj",
+      "appRef": "balance-events"
+    },
+
+    "balance-events-legal-actions-linechart": {
+      "type": "barchart",
+      "id": "sxRpt",
+      "options": { "showTitles": false },
+      "appRef": "balance-events"
+    },
+    "balance-events-legal-actions-container-box": {
+      "type": "container",
+      "id": "FjPLnqR",
+      "appRef": "balance-events"
+    },
+
+    "balance-events-key-figures-container-box-1": {
+      "type": "container",
+      "id": "xppgWx",
+      "appRef": "balance-events"
+    },
+    "balance-events-key-figures-container-box-2": {
+      "type": "container",
+      "id": "PKqcB",
+      "appRef": "balance-events"
+    },
+
+    "balance-events-descriptions": {
+      "type": "table",
+      "id": "PmBwCaR",
+      "appRef": "balance-events"
+    },
+
+
+    "balance-events-table-cr": {
+      "type": "table",
+      "id": "NNmQn",
+      "appRef": "balance-events"
+    }
+  },
+  "qlik-fields": {
+    "summary-dl-en": {
+      "field": "#Summary_DL_English",
+      "type": "single-select"
+    },
+    "summary-dl-no": {
+      "field": "#Summary_DL_Norwegian",
+      "type": "single-select"
+    },
+    "solution-dl-en": {
+      "field": "#Solution_DL_English",
+      "type": "single-select"
+    },
+    "solution-dl-no": {
+      "field": "#Solution_DL_Norwegian",
+      "type": "single-select"
+    },
+    "score-dl-en": {
+      "field": "#Score_DL_English",
+      "type": "single-select"
+    },
+    "score-dl-no": {
+      "field": "#Score_DL_Norwegian",
+      "type": "single-select"
+    },
+    "score-2-dl-en": {
+      "field": "#Score_2_DL_English",
+      "type": "single-select"
+    },
+    "score-2-dl-no": {
+      "field": "#Score_2_DL_Norwegian",
+      "type": "single-select"
+    },
+    "key-figures-dl-en": {
+      "field": "#Key_Figures_DL_English",
+      "type": "single-select"
+    },
+    "key-figures-dl-no": {
+      "field": "#Key_Figures_DL_Norwegian",
+      "type": "single-select"
+    },
+    "key-figures-2-dl-en": {
+      "field": "#Key_Figures_2_DL_English",
+      "type": "single-select"
+    },
+    "key-figures-2-dl-no": {
+      "field": "#Key_Figures_2_DL_Norwegian",
+      "type": "single-select"
+    },
+    "cr-dim-pd-en": {
+      "field": "#CR_Dim_Label_English",
+      "type": "multi-select"
+    },
+    "cr-dim-pd-no": {
+      "field": "#CR_Dim_Label_Norwegian",
+      "type": "multi-select"
+    },
+    "cr-group-pd-en": {
+      "field": "#CR_Group_English",
+      "type": "group-select"
+    },
+    "cr-group-pd-no": {
+      "field": "#CR_Group_Norwegian",
+      "type": "group-select"
+    },
+    "cr-measure-pd-en": {
+      "field": "#CR_Measure_Label_English",
+      "type": "multi-select"
+    },
+    "cr-measure-pd-no": {
+      "field": "#CR_Measure_Label_Norwegian",
+      "type": "multi-select"
+    },
+
+
+    "transactions-dl-en": {
+      "field": "#Transactions_DL_English",
+      "type": "single-select"
+    },
+    "transactions-dl-no": {
+      "field": "#Transactions_DL_Norwegian",
+      "type": "single-select"
+    },
+    "closed-dl-en": {
+      "field": "#Closed_DL_English",
+      "type": "single-select"
+    },
+    "closed-dl-no": {
+      "field": "#Closed_DL_Norwegian",
+      "type": "single-select"
+    },
+    "kpi-dl-en": {
+      "field": "#KPI_DL_English",
+      "type": "single-select"
+    },
+    "kpi-dl-no": {
+      "field": "#KPI_DL_Norwegian",
+      "type": "single-select"
+    }
+  }
+}
